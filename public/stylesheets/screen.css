@@ -1,0 +1,490 @@
+body {
+	background: #033a72 url(../images/background.png) repeat-x;
+	margin-top: 50px;
+	color: #fff;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+#header {
+	background: url(../images/header_open_tour_2010.png) no-repeat;
+	width: 578px;
+	height: 160px;
+	text-indent: -9999px;
+	margin: 35px 0 0 -28px;
+}
+
+#wait_for_me {
+	background: url(../images/flying_wait_for_me.png) no-repeat;
+	width: 441px;
+	height: 309px;
+	position: absolute;
+	z-index: -9999;
+	margin-left: 330px;
+	margin-top: -38px;
+}
+
+#section_o_que  {
+	background: url(../images/header_o_que.png) no-repeat;
+	width: 148px;
+	height: 67px;
+	text-indent: -9999px;
+	margin: 60px 0 0 15px;
+}
+
+#section_o_que_precisas {
+	background: url(../images/header_o_que_vais_precisar.png) no-repeat;
+	width: 148px;
+	height: 149px;
+	text-indent: -9999px;
+	margin: 130px 0 0 15px;
+}
+
+#section_hands_on{
+	background: url(../images/header-hands-on.png) no-repeat;
+	width: 166px;
+	height: 43px;
+	text-indent: -9999px;
+	margin: 130px 0 0 15px;
+}
+
+
+#footer_contactos  p {
+	font-size: 13px;
+}
+
+#header_contactos {
+	background: url(../images/header_contactos.png) no-repeat;
+	width: 160px;
+	height: 41px;
+	text-indent: -9999px;
+}
+
+#footer_opensoft {
+	margin-left: 40px;
+}
+
+#footer_opensoft  p {
+	font-size: 13px;
+	margin-top: -5px;
+}
+
+#header_opensoft {
+	background: url(../images/header_opensoft.png) no-repeat;
+	width: 191px;
+	height: 44px;
+	text-indent: -9999px;
+}
+
+#footer_twitter {
+	margin-left: 35px;
+	margin-bottom: 30px;
+}
+
+#footer_twitter  a {
+	margin-left: 163px;
+	background: url(../images/button_segue_nos.png) no-repeat;
+	width: 85px;
+	height: 34px;
+	display: block;
+	text-indent: -9999px;
+}
+
+#footer_twitter  a:hover{
+	background: url(../images/button_segue_nos_hover.png) no-repeat
+}
+
+#header_twitter {
+	background: url(../images/header_twitter.png) no-repeat;
+	width: 120px;
+	height: 39px;
+	text-indent: -9999px;
+}
+
+#twitter_box {
+	background: url(../images/box_twitter.png) no-repeat;
+	width: 249px;
+	height: 154px;
+	margin-top: -10px;
+}
+
+.twitter_post {
+	position: relative;
+	display: block;
+	padding-top: 15px;
+	margin-left: 45px;
+	margin-right: 15px;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.twitter_date {
+	display: block;
+	margin-top: 10px;
+	margin-left: 45px;
+	margin-right: 15px;
+	font-style: italic;
+	font-size: 10px;
+	position: absolute;
+}
+
+.divider {
+	width: 850px;
+	height: 2px;
+	margin: 30px auto;
+	background: url(../images/divider_header.png) no-repeat;
+}
+
+.box_top {
+	background: url(../images/box_top.png) no-repeat;
+	width: 546px;
+	height: 15px;
+}
+
+.box_middle {
+	background: url(../images/box_middle.png) repeat-y;
+	width: 546px;
+	height: auto;
+}
+
+span.box_content {
+	display: block;
+	margin: 0 15px;
+	text-align: left;
+}
+
+.box_bottom {
+	background: url(../images/box_bottom.png) no-repeat;
+	width: 546px;
+	height: 15px;
+}
+
+.box_screenshots {
+	background: url(../images/box_screenshots.png) no-repeat;
+	width: 786px;
+	height: 139px;
+}
+
+.fancy_ordered_list {
+	list-style: none;
+	margin-left: -10px;
+}
+
+.fancy_ordered_list  li{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.fancy_ordered_list li.bullet_1 {
+	background: url(../images/bullet_1.png) no-repeat;
+	margin-top: 20px;
+}
+
+.fancy_ordered_list li.bullet_2 {
+	background: url(../images/bullet_2.png) no-repeat;
+}
+
+.fancy_ordered_list li.bullet_3 {
+	background: url(../images/bullet_3.png) no-repeat;
+	margin-bottom: 20px;
+}
+
+.fancy_unordered_list {
+	list-style: none;
+	margin-left: -10px;
+}
+
+.fancy_unordered_list  li{
+	margin-top: 65px;
+	margin-bottom: 65px;
+	height: 86px;
+}
+
+.fancy_unordered_list li.bullet_concept {
+	background: url(../images/symbol-concepts.png) no-repeat;
+	margin-top: 20px;
+}
+
+.fancy_unordered_list li.bullet_donwloads {
+	background: url(../images/symbol-save.png) no-repeat;
+	margin-top: 20px;
+}
+
+.fancy_unordered_list li.bullet_tutorial {
+	background: url(../images/symbol-tutorial.png) no-repeat;
+	margin-top: 20px;
+}
+
+span.bullet_text {
+	display: block;
+	margin-left: 100px;
+}
+
+.breadcrumbs {
+	margin: 40px 15px 0 0;
+	font-style: italic;
+	font-size: 10px;
+	text-align: right;
+}
+
+.instructions_text {
+	margin: 0 25px 30px 25px;
+	font-size: 17px;
+}
+
+.instructions_text h1 {
+	font-size: 23px;
+}
+
+#instruction_instalar_o_eclipse {
+	background: url(../images/header_1_instalar_o_eclipse.png) no-repeat;
+	width: 389px;
+	height: 64px;
+	text-indent: -9999px;
+	margin-bottom: 20px;
+}
+
+#instruction_blah_blah {
+	background: url(../images/header_blah_blah_teorico.png) no-repeat;
+	width: 494px;
+	height: 64px;
+	text-indent: -9999px;
+	margin-bottom: 20px;
+}
+
+.box_screenshots  {
+	padding-left: 15px;
+}
+
+.box_screenshots .grid_1 {
+	border: 8px solid white;
+	width: 90px;
+	margin: 17px 10px 0 10px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 20px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+ol a  {
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #f18c00;
+}
+
+/*
+.container_12 {
+	background: #fff url(../images/12_col.gif) repeat-y;
+	margin-bottom: 20px;
+}
+*/
+
+/*
+---------------------------------------------- TEAM CSS */
+
+#section_a_equipa  {
+	background: url(../images/header_a_equipa.png) no-repeat;
+	width: 180px;
+	height: 80px;
+	text-indent: -9999px;
+	margin: 55px 0 0 10px;
+}
+
+.team {
+	width: 960px;
+	height: 200px;
+}
+
+.team h3 {
+	margin: 10px 0;
+	height: 40px;
+	width: 160px;
+	text-indent: -9999px;
+}
+
+.team h3#mariana {
+	margin-bottom: 5px;
+	background: url(../images/header_mariana.png) no-repeat;
+}
+
+.team h3#francisco {
+	margin-bottom: 5px;
+	background: url(../images/header_francisco.png) no-repeat;
+}
+
+.team h3#duarte {
+	margin-bottom: 5px;
+	background: url(../images/header_duarte.png) no-repeat;
+}
+
+.team h3#fabio {
+	margin-bottom: 5px;
+	background: url(../images/header_fabio.png) no-repeat;
+}
+
+.team h3#pedro {
+	margin-bottom: 5px;
+	background: url(../images/header_pedro.png) no-repeat;
+}
+
+.team h3#ricardo {
+	margin-bottom: 5px;
+	background: url(../images/header_ricardo.png) no-repeat;
+}
+
+.team h3#tiago {
+	margin-bottom: 5px;
+	background: url(../images/header_tiago.png) no-repeat;
+}
+
+.team h3#rodolfo {
+	margin-bottom: 5px;
+	background: url(../images/header_rodolfo.png) no-repeat;
+}
+
+.team p {
+	font-size: 13px;
+	width: 170px;
+}
+
+.team li {
+	display:inline;
+}
+
+.team li img {
+	border: 10px solid white;
+}
+
+.team li.suffix_1 {
+	margin-left: -20px;
+}
+
+.team li.first {
+	margin-left: 10px;
+}
+
+.social {
+	position: relative;
+	width: 150px;
+	height: 35px;
+	margin-bottom: 35px;
+}
+
+.social li {
+	float: left;
+}
+
+.social a {
+	background-image: url(../images/social_sprites.png);
+	width: 32px;
+	height: 32px;
+	display: block;
+	text-indent: -9999px;
+	margin: 1px;
+}
+
+.social a.digg.orange {
+	background-position: 0px 0px;
+}
+
+.social a.digg.green {
+	background-position: 0px -33px;
+}
+
+.social a.digg.yellow {
+	background-position: 0px -66px;
+}
+
+.social a.facebook.orange {
+	background-position: -33px 0px;
+}
+
+.social a.facebook.green {
+	background-position: -33px -33px;
+}
+
+.social a.facebook.yellow {
+	background-position: -33px -66px;
+}
+
+.social a.flickr.orange {
+	background-position: -66px 0px;
+}
+
+.social a.flickr.green {
+	background-position: -66px -33px;
+}
+
+.social a.flickr.yellow {
+	background-position: -66px -66px;
+}
+
+.social a.yahoo.orange {
+	background-position: -99px 0px;
+}
+
+.social a.yahoo.green {
+	background-position: -99px -33px;
+}
+
+.social a.yahoo.yellow {
+	background-position: -99px -66px;
+}
+
+.social a.linkedin.orange {
+	background-position: -297px 0px;
+}
+
+.social a.linkedin.green {
+	background-position: -297px -33px;
+}
+
+.social a.linkedin.yellow {
+	background-position: -297px -66px;
+}
+
+
+.social a.twitter.orange {
+	background-position: -132px 0px;
+}
+
+.social a.twitter.green {
+	background-position: -132px -33px;
+}
+
+.social a.twitter.yellow {
+	background-position: -132px -66px;
+}
+
+.social a.buzz.orange {
+	background-position: -198px 0px;
+}
+
+.social a.buzz.green {
+	background-position: -198px -33px;
+}
+
+.social a.buzz.yellow {
+	background-position: -198px -66px;
+}
+
+
+.social a.rss.orange {
+	background-position: -264px 0px;
+}
+
+.social a.rss.green {
+	background-position: -264px -33px;
+}
+
+.social a.rss.yellow {
+	background-position: -264px -66px;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Android Workshop</title>
+	<link rel="stylesheet" href="docs.css" type="text/css" media="screen">
+</head>
+
+<body>
+
+	<h1>Android Workshop</h1>
+	
+	<p>Este projecto surgiu da necessidade de criar uma apresentação para a tour da <a href="http://opensoft.pt">Opensoft</a> pelas Universidades do país no ano de 2010. As ideias bases foram lançadas nesta thread da <a href="https://www.opensoft.pt/confluence/display/RH/Google+Android">wiki da Opensoft</a>.</p>
+	
+	<p>Portanto o que ficou decidido foi criar uma aplicação para dispositivos móveis baseados na plataforma open source <a href="http://android.com/">Google Android</a> que permitisse a interacção com uma das plataformas sociais, estou a falar do <a href="facebook.com">Facebook</a> ou mesmo do <a href="twitter.com">Twitter</a>.</p>
+	
+	<p>Dado que a <a href="#equipa">equipa do projecto</a> era relativamente grande decidiu-se que eu (<a href="rodolfocaldeira.com">Rodolfo Caldeira</a>) poderia fazer um site de forma a dar a conhecer o projecto. Portanto a ideia seria criar um layout com:</p>
+	<ul>
+		<li>O que vamos fazer</li>
+		<li>necessário instalar</li>
+		<li>e possivelmente uma outra página para os elementos da equipa.</li>
+	</ul>		
+	
+	<hr />
+
+	<h2><a name="equipa">Equipa</a></h2>
+
+	<p>A equipa reunida para este projecto foi a seguinte.</p>
+	
+	<ul>
+		<li>Francisco Passos</li>
+		<li>Tiago Pais</li>
+		<li>Fábio Neves</li>
+		<li>Duarte Neves</li>
+		<li>Ricardo Jorge</li>
+		<li>Rodolfo Caldeira</li>
+	</ul>
+
+	<p>O papel de cabeça de cartaz do evento foi atribuído ao membro mais sénior, o Francisco Passos.</p>
+
+	<hr />
+	
+	<h2>Resources</h2>
+	
+	<p>Para a criação do site foram utilizados os seguintes recursos:</p>
+	
+	<ul>
+		<li><a href="http://wallpapers-diq.org/wallpapers/30/Google%27s_Android_Operating_System_Logo.jpg">Android Logo</a></li>
+		<li><a href="http://960.gs">960 Grid System</a></li>
+		<li>
+			<strong>Fonts</strong>
+			<ul>
+				<li><a href="http://www.tenbytwenty.com/products/typefaces/nevis">Nevis</a></li>
+				<li><a href="http://new.myfonts.com/fonts/typodermic/boopee/">Boopee</a></li>
+			</ul>
+		</li>
+		<li>
+			<strong>JQuery Plugins</strong>
+			<ul>
+				<li><a href="http://leandrovieira.com/projects/jquery/lightbox/">Lightbox</a></li>
+				<li><a href="http://plugins.jquery.com/project/jtwitter">Twitter</a></li>
+			</ul>
+		</li>
+		<li><a href="http://designinstruct.com/free-resources/icons/sleeksocial-icon-pack/">SleekSocial Icons</a></li>
+	</ul>
+	
+	<hr />
+	
+	<h2>Future Improvements / Ideas</h2>
+	<ul>
+		<li><a href="http://css-tricks.com/css-sprites/">CSS Sprites by CSS-Tricks</a>, <strong>para aplicar nas bullets</strong></li>
+		<li><a href="http://www.fontsquirrel.com/fonts/list/style/Handdrawn">Handraw Fonts by Fonts Squirrel</a>, <strong>to use instead of the payed version</strong></li>
+		<li><a href="http://css-tricks.com/grid-accordion-with-jquery/">Grid Accordion</a>, <strong>for the Team page</strong></a></li>
+	</ul>
+	
+	<hr />
+	
+	<h2>Working Log</h2>
+	
+	<p>Dado que já não me recordo das datas coloco apenas os passos que foram efectuados para a criação do site</p>
+	
+	<h3>Wireframes</h3>
+	
+	<p>O primeiro passo foi a criação das wireframes para a página inicial e para a página de instruções.</p>
+	
+	<a href="../design/01home.png"><img src="../design/01 home.png" alt="página inicial" width="20%"/></a>
+	<a href="../design/02 instructions.png"><img src="../design/02 instructions.png" alt="página de instruções" width="20%"/></a>
+	
+	<br /><br />
+	
+	<h3>PSD to HTML</h3>
+	
+	<p>Em seguida efectuou-se a conversão do layout do Fireworks para HTML, o chamado PSD to HTML.</p>
+	
+	<ul>
+		<li><a href="../public/home.html" id="" title="home">Home</a></li>
+		<li><a href="../public/instructions.html" id="" title="instructions">Instructions</a></li>
+	</ul>
+	
+	<h3>HTML and Javascript behaviours</h3>
+	
+	<p>Aqui o processo foi pegar no que já tinha sido feito e criar verdadeiramente as várias páginas do site</p>
+	
+	<ul>
+		<li><a href="../public/home.html" id="" title="index">Home Page</a></li>
+	</ul>
+	
+	<h3>Wireframe Equipa</h3>
+	
+	<p>A Wireframe para a página da Equipa</p>
+	
+	<a href="../design/03 team.png"><img src="../design/03 team.png" alt="página da equipa" width="20%"/></a>
+	
+	<br /><br />
+	
+	<hr />
+	
+	<h2>TODO</h2>
+	
+	<p>Como o trabalho nunca está pronto, mesmo após entrar em produção aqui ficam a lista de tarefas que são necessárias terminar.</p>
+	
+	<ul>
+		<li><del>Criar o layout para as páginas do site</del>, 1 day</li>
+		<li><del>PSD to HTML com a framework 960.gs</del>, 2 day</li>
+		<li>Integrar o plugin de jQuery LightBox</li>
+		<li>Criar no fireworks os botões de seguinte, anterior e fechar para a LightBox</li>
+		<li>Integrar o plugin de jQuery Twitter</li>
+		<li><del>Criar no fireworks a página para a equipa</del></li>
+		<li>PST to HTML a página da equipa, utilizando mais uma vez a framework 960.gs</li>
+	</ul>
+	
+</body>
+</html>
